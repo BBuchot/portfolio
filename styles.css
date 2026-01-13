@@ -133,7 +133,8 @@ main{
 .btn.ghost{
     background:transparent;
     color:var(--titre);
-    border:1px solid rgba(106,33,214,0.12);
+    border:1px solid var(--titre);
+    box-shadow:none;
 }
 
 
@@ -289,4 +290,5 @@ main{
 @media (max-width:720px){
     .footer-joke{margin-left:0;width:100%;justify-content:flex-start}
     .footer-joke-content{align-items:flex-start}
+
 }
